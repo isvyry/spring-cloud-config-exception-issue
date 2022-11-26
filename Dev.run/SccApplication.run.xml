@@ -1,10 +1,10 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="SccApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
     <option name="ACTIVE_PROFILES" />
-    <envs>
-      <env name="spring.cloud.bootstrap.additional-location" value="target/classes/bootstrap.yml" />
-    </envs>
     <module name="SCC" />
+    <selectedOptions>
+      <option name="environmentVariables" />
+    </selectedOptions>
     <option name="SPRING_BOOT_MAIN_CLASS" value="com.isvyry.example.scc.SccApplication" />
     <method v="2">
       <option name="Make" enabled="true" />
