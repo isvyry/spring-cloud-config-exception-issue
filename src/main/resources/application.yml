@@ -1,0 +1,22 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: SCC
+  profiles:
+    active: development
+  cloud:
+    config:
+      label: main
+      server:
+        git:
+          uri: https://github.com/isvyry/spring-cloud-config-storage.git
+          username: scc_token
+          password: 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
+          basedir: target/git-config
+          default-label: main
+          clone-on-start: true
+          delete-untracked-branches: true
+          force-pull: true
+          search-paths: '{application}/{profile}'
